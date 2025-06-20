@@ -1,97 +1,93 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Nuno 'Riley' Moura — Full Stack Developer",
+  author: "Nuno 'Riley' Moura",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "Self-taught and detail-oriented full stack developer with 3+ years of experience building scalable applications using Laravel, Node.js, and Vue.js. Adept at designing APIs, optimizing databases, and integrating microservices. Seeking UK-based opportunities under the Skilled Worker Visa scheme.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/1731376687740.jpeg", // You may want to update this image
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "Email", href: "mailto:nmoura49@gmail.com" },
+    { text: "LinkedIn", href: "https://linkedin.com/in/rileymoura" },
+    { text: "Github", href: "https://github.com/rileymoura" }, // Update if you have a GitHub
   ],
   socialImage: "/zen-og.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+  canonicalURL: "https://nunomouradev.pt",
 };
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Nuno 'Riley' Moura",
+    specialty:
+      "Full Stack Developer – Laravel, Node.js, Vue.js, MySQL, MongoDB, Redis",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "Self-taught and detail-oriented full stack developer with 3+ years of experience building scalable applications using Laravel, Node.js, and Vue.js. Seeking UK-based opportunities under the Skilled Worker Visa scheme.",
+    email: "nmoura49@gmail.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "Fujitsu",
+      position: "Full Stack Developer",
+      startDate: "Jan 2025",
+      endDate: "Present",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "Collaborated on enterprise-scale projects",
+        "Supported service infrastructure and features",
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "Armilustrium",
+      position: "Back End Developer",
+      startDate: "Apr 2023",
+      endDate: "Dec 2024",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+        "Developed back-end services with Laravel and Node.js",
+        "Scalable architecture with SQL/NoSQL",
       ],
     },
     {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
-    },
-  ],
-  projects: [
-    {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      company: "Hello Blossom",
+      position: "Full Stack Developer",
+      startDate: "Dec 2022",
+      endDate: "Mar 2023",
+      summary: [
+        "Built SaaS platform using Laravel, AWS, MongoDB",
+        "Microservices, Redis, API integrations",
+      ],
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      company: "Pontopay",
+      position: "Junior Full Stack Developer",
+      startDate: "Jul 2022",
+      endDate: "Nov 2022",
+      summary: [
+        "Contributed to full stack features using Laravel",
+        "Improved core platform with MVC design",
+      ],
     },
     {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      company: "Pontopay",
+      position: "Web Dev Intern",
+      startDate: "Mar 2022",
+      endDate: "Jul 2022",
+      summary: [
+        "Built real estate and car dealer websites",
+        "Supported platform redesign and on-site tech",
+      ],
     },
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
-
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+      Full Stack Developer with 3+ years of experience building scalable applications using Laravel, Node.js, and Vue.js. Adept at designing APIs, optimizing databases, and integrating microservices. Seeking UK-based opportunities under the Skilled Worker Visa scheme.\n\n
+      Technical Skills:\nLanguages: PHP, JavaScript, TypeScript, SQL\nFrameworks: Laravel, Vue.js, Node.js, Express\nDatabases: MySQL, MongoDB, Redis, SQL Server\nTools: Jenkins, Docker, RabbitMQ, AWS, Git, CI/CD pipelines\n\nLanguages: Portuguese (Native), English (Fluent), Spanish (Basic)\n\nVisa Status: Seeking employment under the UK Skilled Worker Visa. Open to relocation, hybrid, or remote-first roles.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/1731376687740.jpeg", // You may want to update this image
   },
 };
 
