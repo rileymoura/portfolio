@@ -83,23 +83,28 @@ export const SITE_CONTENT: SiteContent = {
   ],
   about: {
     description: `
-      Full Stack Developer with 3+ years of experience building scalable applications using Laravel, Node.js, and Vue.js. Adept at:
-      - Designing APIs
-      - Optimizing databases
-      - Integrating microservices
-      - Building SaaS platforms and scalable architectures
-      - Working with both SQL and NoSQL databases
-
-      Technical Skills:
-      - Languages: PHP, JavaScript, TypeScript, SQL
-      - Frameworks: Laravel, Vue.js, Node.js, Express
-      - Databases: MySQL, MongoDB, Redis, SQL Server
-      - Tools: Jenkins, Docker, RabbitMQ, AWS, Git, CI/CD pipelines
-
-      Languages:
-      - Portuguese (Native)
-      - English (Fluent)
-      - Spanish (Basic)
+      <p>Full Stack Developer with 3+ years of experience building scalable applications using Laravel, Node.js, and Vue.js.</p></br>
+      <p><strong>Key Strengths:</strong></p>
+      <ul>
+        <li>Designing APIs</li>
+        <li>Optimizing databases</li>
+        <li>Integrating microservices</li>
+        <li>Building SaaS platforms and scalable architectures</li>
+        <li>Working with both SQL and NoSQL databases</li>
+      </ul></br>
+      <p><strong>Technical Skills</strong></p>
+      <ul>
+        <li><strong>Languages:</strong> PHP, JavaScript, TypeScript, SQL</li>
+        <li><strong>Frameworks:</strong> Laravel, Vue.js, Node.js, Express</li>
+        <li><strong>Databases:</strong> MySQL, MongoDB, Redis, SQL Server</li>
+        <li><strong>Tools:</strong> Jenkins, Docker, RabbitMQ, AWS, Git, CI/CD pipelines</li>
+      </ul></br>
+      <p><strong>Languages</strong></p>
+      <ul>
+        <li>Portuguese (Native)</li>
+        <li>English (Fluent)</li>
+        <li>Spanish (Basic)</li>
+      </ul>
     `,
     image: "/1731376687740.jpeg", // You may want to update this image
   },
