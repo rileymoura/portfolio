@@ -103,7 +103,7 @@ export const SITE_CONTENT: SiteContent = {
       <ul>
         <li>Portuguese (Native)</li>
         <li>English (Fluent)</li>
-        <li>Spanish (Basic)</li>
+        <li>Spanish (Intermediate)</li>
       </ul>
     `,
     image: "/1731376687740.jpeg", // You may want to update this image
