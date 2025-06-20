@@ -4,12 +4,11 @@ export const SITE_CONFIG: SiteConfig = {
   title: "Nuno 'Riley' Moura — Full Stack Developer",
   author: "Nuno 'Riley' Moura",
   description:
-    "Self-taught and detail-oriented full stack developer with 3+ years of experience building scalable applications using Laravel, Node.js, and Vue.js. Adept at designing APIs, optimizing databases, and integrating microservices. Seeking UK-based opportunities under the Skilled Worker Visa scheme.",
+    "Self-taught and detail-oriented full stack developer with 3+ years of experience building scalable applications using Laravel, Node.js, and Vue.js. Adept at designing APIs, optimizing databases, and integrating microservices.",
   lang: "en",
   siteLogo: "/1731376687740.jpeg", // You may want to update this image
   navLinks: [
     { text: "Experience", href: "#experience" },
-    { text: "Projects", href: "#projects" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
@@ -27,7 +26,7 @@ export const SITE_CONTENT: SiteContent = {
     specialty:
       "Full Stack Developer – Laravel, Node.js, Vue.js, MySQL, MongoDB, Redis",
     summary:
-      "Self-taught and detail-oriented full stack developer with 3+ years of experience building scalable applications using Laravel, Node.js, and Vue.js. Seeking UK-based opportunities under the Skilled Worker Visa scheme.",
+      "Self-taught and detail-oriented full stack developer with 3+ years of experience building scalable applications using Laravel, Node.js, and Vue.js.",
     email: "nmoura49@gmail.com",
   },
   experience: [
@@ -84,8 +83,23 @@ export const SITE_CONTENT: SiteContent = {
   ],
   about: {
     description: `
-      Full Stack Developer with 3+ years of experience building scalable applications using Laravel, Node.js, and Vue.js. Adept at designing APIs, optimizing databases, and integrating microservices. Seeking UK-based opportunities under the Skilled Worker Visa scheme.\n\n
-      Technical Skills:\nLanguages: PHP, JavaScript, TypeScript, SQL\nFrameworks: Laravel, Vue.js, Node.js, Express\nDatabases: MySQL, MongoDB, Redis, SQL Server\nTools: Jenkins, Docker, RabbitMQ, AWS, Git, CI/CD pipelines\n\nLanguages: Portuguese (Native), English (Fluent), Spanish (Basic)\n\nVisa Status: Seeking employment under the UK Skilled Worker Visa. Open to relocation, hybrid, or remote-first roles.
+      Full Stack Developer with 3+ years of experience building scalable applications using Laravel, Node.js, and Vue.js. Adept at:
+      - Designing APIs
+      - Optimizing databases
+      - Integrating microservices
+      - Building SaaS platforms and scalable architectures
+      - Working with both SQL and NoSQL databases
+
+      Technical Skills:
+      - Languages: PHP, JavaScript, TypeScript, SQL
+      - Frameworks: Laravel, Vue.js, Node.js, Express
+      - Databases: MySQL, MongoDB, Redis, SQL Server
+      - Tools: Jenkins, Docker, RabbitMQ, AWS, Git, CI/CD pipelines
+
+      Languages:
+      - Portuguese (Native)
+      - English (Fluent)
+      - Spanish (Basic)
     `,
     image: "/1731376687740.jpeg", // You may want to update this image
   },
