@@ -22,7 +22,7 @@ export const SITE_CONFIG: SiteConfig = {
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Nuno 'Riley' Moura",
+    name: "Riley Moura",
     specialty:
       "Full Stack Developer – Laravel, Node.js, Vue.js, MySQL, MongoDB, Redis",
     summary:
@@ -83,7 +83,7 @@ export const SITE_CONTENT: SiteContent = {
   ],
   about: {
     description: `
-      <p>Full Stack Developer with 3+ years of experience building scalable applications using Laravel, Node.js, and Vue.js.</p></br>
+      <p>Full Stack Developer with 4+ years of experience building scalable applications using Laravel, Node.js, and Vue.js.</p></br>
       <p><strong>Key Strengths:</strong></p>
       <ul>
         <li>Designing APIs</li>
@@ -96,8 +96,8 @@ export const SITE_CONTENT: SiteContent = {
       <ul>
         <li><strong>Languages:</strong> PHP, JavaScript, TypeScript, SQL</li>
         <li><strong>Frameworks:</strong> Laravel, Vue.js, Node.js, Express</li>
-        <li><strong>Databases:</strong> MySQL, MongoDB, Redis, SQL Server</li>
-        <li><strong>Tools:</strong> Jenkins, Docker, RabbitMQ, AWS, Git, CI/CD pipelines</li>
+        <li><strong>Databases:</strong> MySQL, MariaDB, MongoDB, Redis, SQL Server</li>
+        <li><strong>Tools:</strong> Docker, RabbitMQ, Git, CI/CD pipelines</li>
       </ul></br>
       <p><strong>Languages</strong></p>
       <ul>
