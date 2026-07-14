@@ -1,8 +1,8 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Nuno 'Riley' Moura — Full Stack Developer",
-  author: "Nuno 'Riley' Moura",
+  title: "Riley Moura — Full Stack Developer",
+  author: "Riley Moura",
   description:
     "Self-taught and detail-oriented full stack developer with 3+ years of experience building scalable applications using Laravel, Node.js, and Vue.js. Adept at designing APIs, optimizing databases, and integrating microservices.",
   lang: "en",
@@ -17,7 +17,7 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "Github", href: "https://github.com/rileymoura" }, // Update if you have a GitHub
   ],
   socialImage: "/zen-og.png",
-  canonicalURL: "https://nunomouradev.pt",
+  canonicalURL: "https://rilemoura.vercel.app",
 };
 
 export const SITE_CONTENT: SiteContent = {
@@ -26,7 +26,7 @@ export const SITE_CONTENT: SiteContent = {
     specialty:
       "Full Stack Developer – Laravel, Node.js, Vue.js, MySQL, MongoDB, Redis",
     summary:
-      "Self-taught and detail-oriented full stack developer with 3+ years of experience building scalable applications using Laravel, Node.js, and Vue.js.",
+      "Self-taught and detail-oriented full stack developer with 4+ years of experience building scalable applications using Laravel, Node.js, and Vue.js.",
     email: "nmoura49@gmail.com",
   },
   experience: [
@@ -34,7 +34,7 @@ export const SITE_CONTENT: SiteContent = {
       company: "Fujitsu",
       position: "Full Stack Developer",
       startDate: "Jan 2025",
-      endDate: "Present",
+      endDate: "Apr 2026",
       summary: [
         "Collaborated on enterprise-scale projects",
         "Supported service infrastructure and features",
